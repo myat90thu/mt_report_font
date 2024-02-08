@@ -7,6 +7,7 @@
     "license": "AGPL-3",
     "category": "Tools",
     "summary": "Base module for mm font rendering in qweb report",
+    'images': ['static/description/banner.png'],
     "depends": [
         "base",
     ],
