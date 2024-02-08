@@ -5,7 +5,7 @@
     "author": "MYAT THU [Odoo Myanmar Tutorial]",
     "website": "https://myat90thu.github.io",
     "license": "AGPL-3",
-    "category": "Hidden/Dependency",
+    "category": "Tools",
     "summary": "Base module for mm font rendering in qweb report",
     "depends": [
         "base",
