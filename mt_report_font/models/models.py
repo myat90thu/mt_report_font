@@ -156,8 +156,10 @@ def dynamic_reindex(input_string):
     input_val = []
     for val in vals:
         if '\u103C' in val and '\u1031' in val:
-            input_val.append(' \u103C' + val.replace('\u103C', ''))
-            input_val.append('\u1031' + val.replace('\u1031', ''))
+            input_val.append(
+                '\u1031' + (' \u103C' + val.replace('\u103C', '')).replace('\u1031', ''))
+            # input_val.append(' \u103C' + val.replace('\u103C', ''))
+            # input_val.append('\u1031' + val.replace('\u1031', ''))
         elif '\u103C' in val:
             input_val.append(' \u103C' + val.replace('\u103C', ''))
         elif '\u1031' in val:
